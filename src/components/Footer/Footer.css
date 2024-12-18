@@ -1,0 +1,274 @@
+.footerWrapper{
+    width: 100vw;
+    height: fit-content;
+    padding: 0 162px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerBox1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 80px;
+    padding: 80px 0;
+}
+
+.footerBox1 ul{
+    list-style: none;
+}
+
+.footerBox1 p{
+    margin: 0;
+}
+
+.listHeader{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 18px;
+}
+
+.footerLink{
+    color: #666666;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 300;
+    line-height: 130%;
+    white-space: nowrap;
+    position: relative;
+}
+
+.footerLink::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #666666;
+    transition: .3s;
+}
+
+.footerLink:hover::after{
+    width: 100%;
+    transition: .3s;
+}
+
+.fb{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.footerBox2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 103px;
+    border-top: 1px solid rgba(102, 102, 102, .5);
+}
+
+.termsConditions{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    gap: 5px;
+}
+
+.termsText{
+    color: #666666;
+    text-decoration: none;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.termsText:first-of-type{
+    padding-right: 5px;
+    border-right: 1px solid rgba(102, 102, 102, .7);
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    gap: 20px;
+    white-space: nowrap;
+
+}
+
+.footerBox2 p:last-of-type{
+    margin: 0;
+    color: #666666;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+@media (max-width: 1440px){
+    .footerWrapper{
+        padding: 0 80px;
+    }
+    .footerBox1{
+        padding: 60px 0;
+        gap: 50px;
+    }
+    .listHeader{
+        padding-bottom: 16px;
+    }
+    .fb{
+        gap: 12px;
+    }
+    .footerBox2{
+        height: 66px;
+    }
+    .termsConditions{
+        gap: 4px;
+    }
+    .termsText{
+        font-size: 14px;
+    }
+    .termsText:first-of-type{
+        padding-right: 4px;
+    }
+    .socials{
+        gap: 14px;
+    }
+
+    .footerBox2 p:last-of-type{
+        font-size: 14px;
+    }
+}
+
+
+
+@media (max-width: 1100px){
+    .footerWrapper{
+        padding: 0 60px;
+    }
+    .footerBox1{
+        padding: 60px 0;
+        gap: 10px;
+    }
+    .listHeader{
+        padding-bottom: 14px;
+    }
+    .fb{
+        gap: 12px;
+    }
+    .footerBox2{
+        height: 66px;
+    }
+    .termsConditions{
+        gap: 4px;
+    }
+    .termsText{
+        font-size: 14px;
+    }
+    .termsText:first-of-type{
+        padding-right: 4px;
+    }
+    .socials{
+        gap: 14px;
+    }
+
+    .footerBox2 p:last-of-type{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px){
+    .footerWrapper{
+        padding: 0 60px;
+    }
+    .footerBox1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .listHeader{
+        padding-bottom: 14px;
+    }
+
+    .listHeader:last-of-type{
+        padding-bottom: 0;
+    }
+    .fb{
+        gap: 12px;
+    }
+
+    .fb:last-of-type{
+        flex-wrap: wrap;
+        flex-direction: initial;
+        grid-column: span 2;
+        align-items: center;
+    }
+    .footerBox2{
+        height: 66px;
+    }
+    .termsConditions{
+        gap: 4px;
+    }
+    .termsText{
+        font-size: 12px;
+    }
+    .termsText:first-of-type{
+        padding-right: 4px;
+    }
+    .socials{
+        gap: 10px;
+    }
+
+    .footerBox2 p:last-of-type{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px){
+    .footerBox2{
+        display: grid;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0;
+        gap: 15px;
+    }
+
+    .socials{
+        grid-row: 1;
+        margin: auto;
+    }
+
+    .termsConditions{
+        grid-row: 2;
+        margin: auto;
+    }
+
+    .termsText{
+        font-size: 14px;
+
+    }
+
+    .footerBox2 p:last-of-type{
+        grid-row: 3;
+        margin: auto;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px){
+    .footerWrapper{
+        padding: 0 30px;
+    }
+
+    .footerBox1{
+        padding: 30px 0;
+    }
+
+    .footerLink{
+        font-size: 16px;
+    }
+}

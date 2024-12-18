@@ -1,0 +1,322 @@
+.innerBox{
+    width: 33.3%;
+    box-sizing: border-box;
+    background-color: #1A1A1A;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid rgba(102, 102, 102, .3);
+    border-radius: 12px;
+}
+
+.innerBox p{
+    margin: 0;
+}
+
+.innerBox > p:last-of-type{
+    font-size: 18px;
+    color: #98989A;
+}
+
+.linkBox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+}
+
+.linkBox p{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.arrow{
+    width: 52px;
+    height: 52px;
+    background-color: #FFD11A;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+/* main box styles */
+
+.mainBox{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px 162px;
+    box-sizing: border-box;
+    gap: 100px;
+}
+
+.mainBox p{
+    margin: 0;
+}
+
+.CTAHeaderBox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 80px;
+    align-items: center;
+}
+
+.CTAHeaderBox img{
+    width: 150px;
+    height: 150px;
+}
+
+.CTAText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.CTAText p:nth-child(1){
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    padding: 6px 10px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #333333;
+    border-radius: 4px;
+}   
+
+.CTAText p:nth-child(2){
+    font-size: 58px;
+    font-family: "Kumbh Sans";
+    font-weight: 400;
+    color: white;
+    padding-bottom: 14px;
+}   
+
+.CTAText p:nth-child(3){
+    font-size: 18px;
+    color: #7E7E81;
+}   
+
+.boxesStyles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    box-sizing: border-box;
+    background-color: #141414;
+    border-radius: 12px;
+}
+
+@media (max-width: 1440px){
+    .mainBox{
+        padding: 80px;
+        gap: 50px;
+    }
+
+    .CTAHeaderBox{
+        gap: 60px;
+    }
+
+    .CTAHeaderBox img{
+        width: 120px;
+        height: 120px;
+    }
+    .CTAText{
+        gap: 10px;
+    }
+
+    .CTAText p:nth-child(1){
+        font-size: 16px;
+    }   
+    
+    .CTAText p:nth-child(2){
+        font-size: 44px;
+        padding-bottom: 10px;
+    }   
+    
+    .CTAText p:nth-child(3){
+        font-size: 16px;
+    } 
+
+    .boxesStyles{
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    .innerBox{
+        padding: 30px;
+        gap: 16px;
+    }
+
+    .arrow{
+        width: 44px;
+        height: 44px;
+    }
+
+    .innerBox > p:last-of-type{
+        font-size: 16px;
+    }
+
+    .linkBox p{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 1100px){
+    .mainBox{
+        padding: 60px;
+        gap: 40px;
+    }
+
+    .CTAHeaderBox img{
+        width: 100px;
+        height: 100px;
+    }
+
+    
+
+    .CTAText{
+        gap: 8px;
+    }
+
+    .CTAText p:nth-child(1){
+        font-size: 14px;
+    }   
+    
+    .CTAText p:nth-child(2){
+        font-size: 34px;
+        padding-bottom: 8px;
+    }   
+    
+    .CTAText p:nth-child(3){
+        font-size: 14px;
+    } 
+
+    .boxesStyles{
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    .innerBox{
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .arrow{
+        width: 40px;
+        height: 40px;
+    }
+
+    .innerBox > p:last-of-type{
+        font-size: 14px;
+    }
+
+    .linkBox p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800px){
+    .mainBox{
+        padding: 60px;
+        gap: 40px;
+    }
+
+    .CTAHeaderBox img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .CTAText{
+        gap: 8px;
+        /* flex-wrap: wrap; */
+    }
+
+    .CTAText p:nth-child(1){
+        font-size: 12px;
+    }   
+    
+    .CTAText p:nth-child(2){
+        font-size: 28px;
+        padding-bottom: 8px;
+    }   
+    
+    .CTAText p:nth-child(3){
+        font-size: 12px;
+    } 
+
+    .boxesStyles{
+        padding: 10px;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    
+    .innerBox{
+        width: 100%;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .arrow{
+        width: 40px;
+        height: 40px;
+    }
+
+    .innerBox > p:last-of-type{
+        font-size: 14px;
+    }
+
+    .linkBox p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px){
+    .CTAHeaderBox{
+        flex-direction: column;
+        justify-content: center;
+        align-items: normal;
+        gap: 30px;
+    }
+
+    .CTAHeaderBox img{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 450px){
+
+    .mainBox{
+        padding: 30px;
+    }
+
+    .CTAHeaderBox img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .innerBox > p:last-of-type{
+        font-size: 12px;
+    }
+
+    .linkBox p{
+        font-size: 14px;
+        white-space: wrap;
+    }
+    .arrow{
+        width: 35px;
+        height: 35px;
+    }
+}

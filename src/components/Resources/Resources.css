@@ -1,0 +1,597 @@
+.box1, .box2{
+    width: 100vw;
+    height: 880px;
+    background-color: #1A1A1A;
+    border-bottom: 1px solid #666666;
+    padding: 0 162px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    justify-content: space-between;
+}
+
+.resourceBox1{
+    width: 519px;
+    height: 569px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    box-sizing: border-box;
+}
+
+.resourceBox1 p{
+    margin: 0;
+}
+
+.resourceBox1 img{
+    width: 80px;
+    height: 80px;
+}
+
+.resourceBox1 p:nth-child(2){
+    color: white;
+    font-family: "Kumbh Sans";
+    font-size: 40px;
+    font-weight: 600;
+}
+.resourceBox1 p:nth-child(3){
+    color: #98989A;
+    font-size: 20px;
+}
+
+.userBox{
+    width: 433px;
+    height: 130px;
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141414;
+    border-radius: 13px;
+    border: 1px solid #666666;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.userBox p{
+    color: #98989A;
+    white-space: nowrap;
+}
+.userBox p strong{
+    color: white;
+    white-space: nowrap;
+}
+
+.smallUsers{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    background-color: #1A1A1A;
+    border-radius: 12px;
+    border: 1px solid rgba(102, 102, 102, .3);
+    white-space: nowrap;
+}
+
+.smallUsers img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+/* second box */
+
+.resourceBox2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+    padding: 80px 0 80px 80px;
+    box-sizing: border-box;
+    max-width: 997px;
+}
+
+.resourceBox2 p{
+    margin: 0;
+}
+
+.topicBox{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.topicBox P:first-child{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    white-space: nowrap;
+
+}
+
+.topicBox p:last-child{
+    font-size: 18px;
+    color: #98989A;
+}
+
+.resourceBox2 img{
+    max-width: 100%;
+    height: 332px;
+}
+
+.detailsBox1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    height: 123px;
+    box-sizing: border-box;
+}
+
+.db1A{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: #141414;
+    border: 1px solid rgba(102, 102, 102, .3);
+    border-radius: 13px;
+}
+
+.db1A p:first-child{
+    font-size: 18px;
+    color: #98989A;
+    white-space: nowrap;
+
+}
+
+.db1A p:last-child{
+    font-size: 20px;
+    font-weight: 500px;
+    color: white;
+    white-space: nowrap;
+
+}
+
+.db1B{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: #141414;
+    border: 1px solid rgba(102, 102, 102, .3);
+    border-radius: 13px;
+    box-sizing: border-box;
+    gap: 15px;
+}
+
+.downloadFormats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.downloadFormats p:first-child{
+    color: #98989A;
+    font-size: 18px;
+    white-space: nowrap;
+
+}
+.downloadFormats p:last-child{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+
+}
+
+.previewButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 147px;
+    background-color: #1A1A1A;
+    border: 1px solid rgba(102, 102, 102, .3);
+    border-radius: 10px;
+    padding: 18px 24px;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.previewNavLink{
+    color: #98989A;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.detailsBox2{
+    width: 100%;
+    height: 123px;
+    background-color: #141414;
+    border: 1px solid rgba(102, 102, 102, .3);
+    border-radius: 13px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.detailsBox2 p:first-child{
+    color: #98989A;
+    font-size: 18px;
+}
+.detailsBox2 p:last-child{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+ 
+/* resources header */
+
+.resourcesHeaderWrapper{
+    width: 100vw;
+    height: 448px;
+    padding: 120px 162px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 250px;
+    border-bottom: 1px solid #666666;
+    box-sizing: border-box;
+}
+
+.resourcesTextBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.resourcesTextBox p{
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    width: fit-content;
+    padding: 6px 10px;
+    background-color: #333333;
+    border-radius: 4px;
+}
+.resourcesTextBox h2{
+    margin: 0;
+    color: white;
+    font-family: "Kumbh Sans";
+    font-size: 58px;
+    font-weight: 400;
+}
+.resourcesLinkWrapper{
+    width: 235px;
+    height: 63px;
+}
+
+
+@media(max-width: 1440px){
+    .resourcesHeaderWrapper{
+        height: 316px;
+        gap: 30px;
+        padding: 0 80px;
+    }
+    .resourcesTextBox p{
+        font-size: 16px;
+    }
+    .resourcesTextBox h2{
+        font-size: 44px;
+    }
+
+    .box1, .box2{
+        padding: 0 80px;
+        gap: 60px;
+        height: 717px;
+    }
+
+    .resourceBox2{
+        padding: 60px 0 60px 60px;
+        gap: 24px;
+    }
+
+    .topicBox{
+        gap: 20px;
+    }
+    .topicBox P:first-child{
+        font-size: 20px;
+    }
+    
+    .topicBox p:last-child{
+        font-size: 14px;
+    }
+    
+    .resourceBox2 img{
+        height: 275px;
+    }
+
+    .db1A{
+        padding: 24px;
+    }
+
+    .db1A p:first-child{
+        font-size: 16px;
+    }
+    .db1A p:last-child{
+        font-size: 18px;
+    }
+
+    .downloadFormats p:first-child{
+        font-size: 16px;
+    
+    }
+    .downloadFormats p:last-child{
+        font-size: 18px;
+    }
+
+    .detailsBox2 p:first-child{
+        white-space: nowrap;
+    }
+    
+
+    .resourceBox1{
+        width: 413px;
+        gap: 30px;
+    }
+
+    .resourceBox1 img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .resourceBox1 p:nth-child(2){
+        font-size: 30px;
+    }
+    .resourceBox1 p:nth-child(3){
+        font-size: 16px;
+    }
+
+    .userBox{
+        width: 328px;
+        height: 96px;
+        padding: 20px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1100px){
+    .resourcesHeaderWrapper{
+        height: 316px;
+        gap: 30px;
+        padding: 0 60px;
+    }
+    .resourcesTextBox p{
+        font-size: 16px;
+    }
+    .resourcesTextBox h2{
+        font-size: 38px;
+    }
+
+
+
+
+
+    .box1, .box2{
+        padding: 60px 60px 0 60px;
+        gap: 40px;
+        height: fit-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: normal;
+    }
+
+    .resourceBox2{
+        padding: 60px 0;
+        gap: 24px;
+    }
+
+    .topicBox{
+        gap: 20px;
+    }
+    .topicBox P:first-child{
+        font-size: 20px;
+    }
+    
+    .topicBox p:last-child{
+        font-size: 14px;
+    }
+    
+    .resourceBox2 img{
+        height: 275px;
+    }
+    
+    .detailsBox1{
+       flex-direction: column;
+       height: fit-content;
+    }
+
+    .db1A{
+        padding: 24px;
+        width: 100%;
+    }
+
+    .db1A p:first-child{
+        font-size: 16px;
+    }
+    .db1A p:last-child{
+        font-size: 18px;
+    }
+
+    .downloadFormats p:first-child{
+        font-size: 16px;
+    
+    }
+    .downloadFormats p:last-child{
+        font-size: 18px;
+    }
+
+    .detailsBox2 p:first-child{
+        white-space: nowrap;
+    }
+    
+
+    .resourceBox1{
+        max-width: none;
+        width: 100%;
+        height: fit-content;
+        gap: 30px;
+    }
+
+    .resourceBox1 img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .resourceBox1 p:nth-child(2){
+        font-size: 30px;
+    }
+    .resourceBox1 p:nth-child(3){
+        font-size: 16px;
+    }
+
+    .userBox{
+        width: 328px;
+        height: 96px;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    
+}
+
+@media (max-width: 800px){
+    .resourcesHeaderWrapper{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 60px;
+        justify-content: center;
+        align-items: normal;
+    }
+    .resourcesTextBox p{
+        font-size: 14px;
+    }
+    .resourcesTextBox h2{
+        font-size: 34px;
+    }
+
+    .topicBox p:last-child{
+        font-size: 10px;    
+    }
+}
+
+@media (max-width: 600px){
+    .resourcesHeaderWrapper{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 60px;
+    }
+    .resourcesTextBox p{
+        font-size: 14px;
+    }
+    .resourcesTextBox h2{
+        font-size: 30px;
+    }
+    
+    .resourceBox2 img{
+        height: 200px;
+    }
+
+    .downloadFormats p:first-child{
+        font-size: 14px;
+    }
+    .downloadFormats p:last-child{
+        font-size: 16px;
+    }
+
+    .db1B{
+        padding: 24px;
+    }
+
+    .detailsBox2{
+        padding: 24px;
+    }
+
+    .detailsBox2 p:first-child, .detailsBox2 p:last-child{
+        font-size: 16px;
+    }
+    .previewButton{
+        padding: 14px 10px;
+    }
+    .previewNavLink{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px){
+    .resourcesHeaderWrapper{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 30px;
+    }
+    .resourcesTextBox p{
+        font-size: 12px;
+    }
+    .resourcesTextBox h2{
+        font-size: 24px;
+    }
+    
+    .box1, .box2{
+        padding: 30px 30px 0;
+    }
+
+    .topicBox p:first-child{
+        font-size: 16px;
+    }
+    .topicBox p:last-child{
+        font-size: 9px;
+    }   
+
+    .db1A, .db1B, .detailsBox2{
+        padding: 15px;
+    }
+
+    .db1B{
+        gap: 5px;
+    }
+
+    .downloadFormats p:first-child{
+        font-size: 12px;
+    }
+    .downloadFormats p:last-child{
+        font-size: 14px;
+    }
+    .previewButton{
+        padding: 10px 6px;
+    }
+
+    .detailsBox2 p:first-child, .detailsBox2 p:last-child{
+        font-size: 14px;
+    }
+    .userBox{
+        width: 280px;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .smallUsers{
+        padding: 5px;
+    }
+
+    .smallUsers img{
+        max-width: 25px;
+        max-height: 25px;
+    }
+}
