@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FutureTech/static/css/main.90f16391.css",
+    "main.js": "/FutureTech/static/js/main.2873ad19.js",
+    "static/js/453.ed3810f9.chunk.js": "/FutureTech/static/js/453.ed3810f9.chunk.js",
+    "static/media/Abstract.png": "/FutureTech/static/media/Abstract.e9fd84ef28ce334c69fa.png",
+    "index.html": "/FutureTech/index.html",
+    "main.90f16391.css.map": "/FutureTech/static/css/main.90f16391.css.map",
+    "main.2873ad19.js.map": "/FutureTech/static/js/main.2873ad19.js.map",
+    "453.ed3810f9.chunk.js.map": "/FutureTech/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90f16391.css",
+    "static/js/main.2873ad19.js"
+  ]
+}
